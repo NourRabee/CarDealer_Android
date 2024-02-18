@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_delete_user">
+
+    <fragment
+        android:id="@+id/nav_delete_user"
+        android:name="com.example.androidproject.ui.delete_user.DeleteUserFragment"
+        android:label="@string/menu_delete_user"
+        tools:layout="@layout/fragment_delete_user" />
+
+    <fragment
+        android:id="@+id/nav_add_admin"
+        android:name="com.example.androidproject.ui.add_admin.AddAdminFragment"
+        android:label="@string/menu_add_admin"
+        tools:layout="@layout/fragment_add_admin" />
+
+    <fragment
+        android:id="@+id/nav_list_reserves"
+        android:name="com.example.androidproject.ui.list_reserves.ListReservesFragment"
+        android:label="@string/menu_list_reserves"
+        tools:layout="@layout/fragment_list_reserves" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.androidproject.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>

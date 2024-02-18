@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.androidproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_car"
+        android:name="com.example.androidproject.ui.list.ListFragment"
+        android:label="@string/menu_car"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_reservations"
+        android:name="com.example.androidproject.ui.reservations.ReservationsFragment"
+        android:label="@string/menu_reservations"
+        tools:layout="@layout/fragment_reservations" />
+
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.example.androidproject.ui.favorite.FavoriteFragment"
+        android:label="@string/menu_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/nav_special"
+        android:name="com.example.androidproject.ui.special.SpecialFragment"
+        android:label="@string/menu_special"
+        tools:layout="@layout/fragment_special" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.androidproject.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.androidproject.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.androidproject.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>
